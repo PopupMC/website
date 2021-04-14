@@ -1,4 +1,5 @@
-const Image = require("@11ty/eleventy-img");
+const Image = require("@11ty/eleventy-img"),
+      Cache = require("@11ty/eleventy-cache-assets");
 
 async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
