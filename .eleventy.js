@@ -25,6 +25,7 @@ async function imageShortcode(src, alt, sizes) {
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "src/icons": "/" });
+  eleventyConfig.addPassthroughCopy({ "src/css": "/css" });
 
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addLiquidShortcode("image", imageShortcode);
