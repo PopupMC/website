@@ -1,0 +1,23 @@
+{
+  "name": "PopupMC.github.io",
+  "version": "1.0.0",
+  "description": "Website powered by Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PopupMC/PopupMC.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PopupMC/PopupMC.github.io/issues"
+  },
+  "homepage": "https://github.com/PopupMC/PopupMC.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
