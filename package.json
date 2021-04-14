@@ -19,5 +19,8 @@
   "homepage": "https://github.com/PopupMC/PopupMC.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^0.8.3"
   }
 }
